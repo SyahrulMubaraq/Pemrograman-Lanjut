@@ -1,0 +1,65 @@
+class Keliling_Lingkaran(object):
+  def __init__(self, pi, r):
+    self.pi = pi
+    self.jari2 = r
+    
+  def hitungKeliling(self):
+    return 2 * self.pi * self.jari2
+  def cetakData(self):
+    print('PHI \t:', self.pi, 'cm')
+    print('jari-jari \t:', 'am')
+    
+  def cetakKeliling(self):
+    print('Keliling Lingkaran \t:', self.hitungKeliling(), 'cm')
+    
+class Luas_Lingkaran(object):
+  def __init__(self, pi1, r1):
+    self.pi = pi1
+    self.jari2 = r1
+    
+  def hitungLuas(self):
+    return self.pi * self.jari2 * self.jari2
+    
+    print ('PHI \t:', self.pi)
+    print('jari-jari \t:', self.jari2)
+    
+  def cetakData(self):
+    print('PHI \t:', self.pi, 'cm')
+    print('jari-jari \t:', self.jari2, 'cm')
+    
+  def cetakLuas(self):
+    print('Luas Lingkaran \t:', self.hitungLuas(), 'cm')
+    
+def main():
+  print('\HASIL METODE DARI CLASS PERTAMA (KELILING)')
+  print('.............................................................')
+  Lingkaran1 = Keliling_Lingkaran(22/7, 10)
+  
+  print('\Keliling Lingkaran 1')
+  Lingkaran1.cetakData()
+  Lingkaran1.cetakKeliling()
+  
+  Lingkaran2 = Keliling_Lingkaran(22/7, 18)
+  
+  print("\nKeliling Lingkaran 2")
+  Lingkaran2.cetakData()
+  Lingkaran2.CetakLuas()
+  
+  print('HASIL METODE DARI CLASS KEDUA (LUAS)')
+  print('..........................................................')
+  Lingkaran1 = Luas_Lingkaran(22/7, 25)
+  
+  print("\Luas Lingkaran 1")
+  Lingkaran1.cetakData()
+  Lingkaran1.cetakLuas
+  
+  Lingkaran2 = Luas_Lingkaran(22/7, 30)
+  
+  print("\nLuas Lingkaran 2")
+  Lingkaran2.cetakData()
+  Lingkaran2.cetakLuas()
+  
+if __name__=="__main__":
+  main()
+  
+  
